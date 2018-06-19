@@ -1,0 +1,52 @@
+.portfolio-row {
+    padding: 250px 0;
+    width: 100%;
+    background-image: url(../images/web-developer.jpg);
+    color: #fff;
+}
+
+.card {
+    margin: 50px 0; 
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgb(32, 203, 255);
+    color: #fff;
+    padding: 250px;
+}
+
+.contact {
+    padding: 150px 0;
+    width: 100%;
+    background: rgb(32, 203, 255);
+    text-align: center;
+    color: #fff;
+
+}
+
+.contact-icons {
+    margin: 100px 0; 
+}
+
+.img-about {
+    margin: 0 auto;
+    width: 400px;
+    height: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.lead{
+    font-size: 20px;
+
+}
+
+#about {
+    margin: 100px 0;
+
+}
