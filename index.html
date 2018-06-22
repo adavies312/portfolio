@@ -12,8 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
-
-
+   
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Andrew Davies Portfolio</title>
 </head>
@@ -62,8 +61,9 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center" data-parallax="scroll">
-                <img src="./assets/images/adavies-headshot.png" class="img-circle img-responsive img-about">
-                <br><br>                <h2>About Andrew Davies</h2>
+                            <img src="./assets/images/adavies-headshot.png" class="img-circle img-responsive img-about">
+                            <br><br>                
+                <h2>About Andrew Davies</h2>
                 <br>
                 <p class="lead">I graduated from the University of Illinois in Urbana-Champaign Winter 2010 with a degree in Economics. Shortly thereafter I began embarking on a path that led me to becoming a web developer.
 
@@ -140,7 +140,7 @@
     </div>
     <!--Start of Portfolio-->
     <section id="portfolio"></section>
-    <div class="portfolio-row bg-success">
+    <div class="portfolio-row">
         <h2 class="text-center portfolio-header">Portfolio</h2>
 
     </div>
@@ -223,41 +223,72 @@
             <div class="row">
                     <div class="col-md-5 col-xs-12">
                             <div class="card">
-                                <a href="https://adavies312.github.io/GifTastic/"><img src="./assets/images/giftastic.png" width="100%" alt="GifTastic"></a>
-                                <p class="card-text">GifTastic: Superhero Edition uses the GIPHY API to make a dynamic web page that populates with gifs of your choice.
-                                     </p>
-                            </div>
+                                    <a href="https://github.com/adavies312/bamazon"><img src="./assets/images/bamazon.png" width="100%" alt="BAmazon"></a>
+                                    <p class="card-text">Bamazon is a node.js application that creates an Amazon-like storefront. The app takes in orders
+                                        from customers and modifies the inventory using MySQL. There are three different views of the
+                                        storefront, one for each a customer, manager, and supervisor. </p>
+                                </div>
                         </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-5 col-xs-12">
-                    <div class="card">
-                        <a href="https://github.com/adavies312/word-guess-cli"><img src="./assets/images/word-guess.png" width="100%" alt="Word Guess Game"></a>
-                        <p class="card-text">This application is a node.js word guess command line game using constructor functions. Play and
-                            guess what IMDB top 250 movie the computer has randomly selected. </p>
-                    </div>
+
+                        <div class="card">
+                                <a href="https://github.com/adavies312/liri-node-app"><img src="./assets/images/liri movie-this.png" width="100%" alt="Card image cap"></a>
+                                <p class="card-text">LIRI is a language interpretation and recognition interface. It is a command line node app that does
+                                    several things. It uses the Twitter API, Spotify API, and OMDB API to take in parameters and
+                                    give back data. This includes searching for movies or a song and retrieving most recent tweets.
+                                    </p>
+                            </div>
+                    
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-5 col-xs-12">
-                    <div class="card">
-                        <a href="https://github.com/adavies312/bamazon"><img src="./assets/images/bamazon.png" width="100%" alt="BAmazon"></a>
-                        <p class="card-text">Bamazon is a node.js application that creates an Amazon-like storefront. The app takes in orders
-                            from customers and modifies the inventory using MySQL. There are three different views of the
-                            storefront, one for each a customer, manager, and supervisor. </p>
-                    </div>
+                    
+                        <div class="card">
+                                <a href="https://adavies312.github.io/GifTastic/"><img src="./assets/images/giftastic.png" width="100%" alt="GifTastic"></a>
+                                <p class="card-text">GifTastic: Superhero Edition uses the GIPHY API to make a dynamic web page that populates with gifs of your choice.
+                                     </p>
+                            </div>
                 </div>
                 <div class="col-md-2"></div>
                 <div class="col-md-5 col-xs-12">
 
-                    <div class="card">
-                        <a href="https://github.com/adavies312/liri-node-app"><img src="./assets/images/liri movie-this.png" width="100%" alt="Card image cap"></a>
-                        <p class="card-text">LIRI is a language interpretation and recognition interface. It is a command line node app that does
-                            several things. It uses the Twitter API, Spotify API, and OMDB API to take in parameters and
-                            give back data. This includes searching for movies or a song and retrieving most recent tweets.
-                            </p>
-                    </div>
+                        <div class="card">
+                                <a href="https://github.com/adavies312/word-guess-cli"><img src="./assets/images/word-guess.png" width="100%" alt="Word Guess Game"></a>
+                                <p class="card-text">This application is a node.js word guess command line game using constructor functions. Play and
+                                    guess what IMDB top 250 movie the computer has randomly selected. </p>
+                            </div>
                 </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+
+                        <div class="card">                                
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                       <a href="https://cms-specialist.com/"><img class="d-block w-100" src="./assets/images/drupal-wildlife.png" alt="First slide"></a> 
+                                    </div>
+                                    <div class="carousel-item">
+                                            <a href="https://cms-specialist.com/"> <img class="d-block w-100" src="./assets/images/drupal-multipoint-map.png" alt="Second slide"></a>
+                                    </div>
+                                    <div class="carousel-item">
+                                            <a href="https://cms-specialist.com/">   <img class="d-block w-100" src="./assets/images/drupal-markercluster.png" alt="Third slide"></a>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <a href="https://cms-specialist.com/"> <img class="d-block w-100" src="./assets/images/drupal-gallery.png" alt="Fourth slide"></a>
+                                        </div>
+                                </div>
+                            </div>
+                            <p class="card-text">My Wildlife in Pictures is a Drupal 7 website. It features various content types, complex views and a multipoint map. 
+                                    </p>
+                            </div>
+                </div>
+                <div class="col-md-3"></div>
 
             </div>
             <hr />
@@ -323,6 +354,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
     <!--JavaScript-->
     <script src="./assets/javascript/app.js"></script>
+
 </body>
 
 </html>
